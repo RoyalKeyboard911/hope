@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Best Browser</title>
+  <style>
+    p:hover {
+      cursor: pointer;
+    }
+
+    body {
+      background-color: white;
+      font-family: 'Times New Roman', Times, serif;
+      overflow-x: clip;
+      font-size: 30px;
+    }
+
+    img {
+      aspect-ratio: none;
+      width: auto;
+      height: auto;
+    }
+
+    .about-div {
+      margin-inline-start: 0%;
+    }
+
+    .about-div img {
+      width: 830px;
+      height: auto;
+
+
+
+    }
+
+    #mainsection {
+      margin-left: 300px;
+    }
+
+    #story,
+    {
+    margin-left: 300px;
+    }
+
+
+    .firefox-div {
+
+      margin-left: 300px;
+    }
+
+    .verdict-div {
+
+      margin-left: 300px;
+    }
+
+    .verdict-div {
+
+      margin-left: 300px;
+    }
+
+
+
+
+
+    .rect {
+      color: white;
+      text-align: center;
+      height: max-content;
+      overflow-x: hidden;
+      top: 0px;
+      left: 0px;
+      background-color: rgb(15, 119, 217);
+      width: 250px;
+      z-index: 1000;
+      display: block;
+      height: 110vh;
+      position: fixed;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 42px;
+    }
+
+    .about-div,
+    .contact-div,
+    .story-div,
+    .credit-div,
+    .firefox-div,
+    .verdict-div,
+    .safari-div,
+    .safari-div {
+      display: none;
+    }
+
+    .safari-div {}
+
+    .home-div h2 {
+      font-size: 285px;
+      margin-top: 0;
+      font-family: inherit;
+      text-align: left;
+    }
+
+    .home-div {
+      overflow-y: hidden;
+    }
+
+    .home-div p {
+      font-size: 40px;
+      text-align: left;
+      margin-top: 0px;
+      margin-bottom: 20px;
+    }
+
+    #chromium-logo {
+
+      width: 400px;
+      height: auto;
+    }
+
+    .flip {}
+
+    #chromium-logo {
+      float: left;
+      width: 350px;
+      /* Adjust the size of the image */
+      height: auto;
+      margin-right: 24px;
+      /* Adds space to the right of the image */
+      margin-bottom: 20px;
+      /* Adds space below the image */
+      display: inline-block;
+      /* Ensures the image floats properly */
+    }
+
+    .container {
+      overflow: hidden;
+      /* Clears floating issues and ensures proper text flow */
+      margin-top: 40px;
+      /* Adds a gap between the image and the top text */
+    }
+
+    .flip {}
+
+    #chromium-logo {
+      float: right;
+      width: 350px;
+      /* Adjust the size of the image */
+      height: auto;
+      margin-right: 24px;
+      /* Adds space to the right of the image */
+      margin-bottom: 24px;
+      /* Adds space below the image */
+      text-align: center;
+      margin-bottom: -30px;
+      /* Ensures the image floats properly */
+    }
+
+    .container {
+      overflow: hidden;
+      /* Clears floating issues and ensures proper text flow */
+      margin-top: 40px;
+      /* Adds a gap between the image and the top text */
+    }
+
+    .container p {
+      max-width: 600px;
+      /* Ensures paragraph doesn't stretch too wide */
+      line-height: 1.6;
+      /* Adds better line spacing */
+      margin-top: 20px;
+      /* Pushes paragraph content further down */
+      clear: both;
+      /* Ensures text starts below the image */
+    }
+
+    .safari-div {
+
+      display: none;
+    }
+
+    .tried {
+
+      /* width: 10p; */
+      /* height:auto; */
+
+      .
+    }
+
+    #tried {
+      float: left;
+      left: 0% !important;
+      position: relative;
+      transform: translateY(-22%);
+      /* display: inline; */
+      width: 350px;
+      /* Adjust the size of the image */
+      height: auto;
+      margin-right: 24px;
+      /* Adds space to the right of the image */
+      /* margin-bottom: 2000px; */
+      /* Adds space below the image */
+      display: inline-block;
+      margin-bottom: -100px;
+
+      /* Ensures the image floats properly */
+    }
+
+    .center-div {
+
+      font-size: 1px;
+    }
+
+    div.center {
+
+      text-align: center;
+      margin-top: 0px
+    }
+
+    img#chromium-logo {
+
+      margin-left: 10px;  
+    }
+
+    .verdict-div {
+      /* display: none; */
+
+    }
+
+    .image-tick {
+      margin-top: 100px;
+
+    }
+
+    .container p {
+      max-width: 600px;
+      /* Ensures paragraph doesn't stretch too wide */
+      line-height: 1.6;
+      /* Adds better line spacing */
+      margin-top: 20px;
+      /* Pushes paragraph content further down */
+      clear: both;
+      /* Ensures text starts below the image */
+    }
+
+    .safari-div {
+
+      display: none;
+    }
+
+    .tried {
+      height: 15px !important;
+      width: auto;
+
+    }
+
+
+
+
+
+    .verdict-div {
+      display: none;
+
+
+
+    }   
+  </style>
+</head>
+
+<body>
+  <div class="rect">
+    <div class="rect">
+      <p onclick="window.location.href='#home';
+            document.getElementsByClassName('home-div')[0].style.display = 'block';
+            document.getElementsByClassName('about-div')[0].style.display = 'none';
+            document.getElementsByClassName('contact-div')[0].style.display = 'none';
+            document.getElementsByClassName('story-div')[0].style.display = 'none';
+            document.getElementsByClassName('credit-div')[0].style.display = 'none';
+        ">Home</p>
+
+      <p onclick="window.location.href='#about';
+            document.getElementsByClassName('home-div')[0].style.display = 'none';
+            document.getElementsByClassName('about-div')[0].style.display = 'block';  
+            document.getElementsByClassName('contact-div')[0].style.display = 'none';
+            document.getElementsByClassName('story-div')[0].style.display = 'none';
+            document.getElementsByClassName('credit-div')[0].style.display = 'none';
+        ">About</p>
+
+      <p onclick="window.location.href='#story';
+            document.getElementsByClassName('home-div')[0].style.display = 'none';
+            document.getElementsByClassName('about-div')[0].style.display = 'none';
+            document.getElementsByClassName('contact-div')[0].style.display = 'none';
+            document.getElementsByClassName('story-div')[0].style.display = 'block';
+            document.getElementsByClassName('credit-div')[0].style.display = 'none';
+        ">Chrome</p>
+
+      <p onclick="window.location.href='#credit';
+            document.getElementsByClassName('home-div')[0].style.display = 'none';
+            document.getElementsByClassName('about-div')[0].style.display = 'none';
+            document.getElementsByClassName('contact-div')[0].style.display = 'none';
+            document.getElementsByClassName('story-div')[0].style.display = 'none';
+            document.getElementsByClassName('credit-div')[0].style.display = 'block';
+        ">Brave</p>
+
+      <p onclick="window.location.href='#contact';
+            document.getElementsByClassName('home-div')[0].style.display = 'none';
+            document.getElementsByClassName('about-div')[0].style.display = 'none';
+            document.getElementsByClassName('contact-div')[0].style.display = 'none';
+            document.getElementsByClassName('story-div')[0].style.display = 'none';
+            document.getElementsByClassName('credit-div')[0].style.display = 'none';
+            document.getElementsByClassName('contact-div')[0].style.display = 'block';
+        ">Opera GX</p>
+    </div>
+  </div>
+
+  </style>
+  </head>
+
+  <body>
+    <div class="rect">
+      <div class="rect">
+        <p onclick="showSection('home')">Home</p>
+        <p onclick="showSection('about')">About</p>
+        <p onclick="showSection('story')">Chrome</p>
+        <p onclick="showSection('safari')">Safari</p>
+        <p onclick="showSection('credit')">Brave</p>
+        <p onclick="showSection('contact')">Opera GX</p>
+        <p onclick="showSection('firefox')">Firefox</p>
+        <p onclick="showSection('verdict')">Final Verdict</p>
+
+      </div>
+    </div>
+
+    <div id="mainsection">
+      <main>
+        <div class="home-div">
+          <section id="home">
+            <h2>Welcome</h2>
+            <img src="https://cdn-icons-png.flaticon.com/512/109/109618.png" style="margin-top: -350px;" width=20
+              height="auto" alt="Icon">
+            <p class="flip">You can use the sidebar to flip through contents</p>
+          </section>
+        </div>
+
+
+
+        <div class="about-div">
+            <section id="about">
+              <h2>About</h2>
+              <p>This is a website about Browsers and which one should you use. I will give my opinion on every mainstream
+                browser and the pros and cons before making a final verdict. The browsers I will talk about are: Brave,
+                Opera GX, Google Chrome. Safari is not included as it is not available on Windows with the latest updates
+                and Edge is not included as it is the default browser on Windows and I refuse to try it. Scroll down to
+                see some additional info you will need before the comparison.</p>
+              <img src="https://miro.medium.com/v2/resize:fit:1200/1*p25LQwgzudAYcjD9hUA0Pw.png" alt="Icon">
+          
+              <h1>Google chromium explained</h1>
+              <p>Now before we begin the comparisons there is one topic I have to explain first and that is what google chromium is. Now most of you have probably never heard of what google chromium is and i'll
+                explain it right now. Google chromium is a software developed by google that most browsers use. In
+                fact there are only two notable browsers in the world that don't use chromium: firefox and safari..
+              </p>
+          
+              <div class="image-tick">
+                <img id="tried" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQWN-SLzk5eeEuA9zBJKzsM0qbvtLsKDfJ-w&s height="10px">
+          
+                <p>Chromium is used by many browsers as it gives two major benefits. 1. Most developers build their websites around this software making them load better and properly on chromium
+                  based browsers which have the biggest market share.2. They give the benefit of having access to the
+                  google web store which is the biggest extension store in the world.
+                </p>
+              </div>
+          
+              <div class="center">
+                <div class="container"></div>
+                <img id="chromium-logo" src="https://upload.wikimedia.org/wikipedia/commons/2/28/Chromium_Logo.svg" alt="Icon">
+          
+                <p class="why">Now these are some substantial benefits however this gives google the power to affect
+                  other browsers as they can issue updates to chromium which gives them massive control over any browsers
+                  that use chromium.
+                  Since google is a data company their main source of income is ads and collecting user data for
+                  capitalization with chromium google may be able to take data from browsers apart from chrome and use it
+                  for their own capitalisation purposes that do not align with the users wishes.
+                </p>
+          
+                <p>
+                  <br>
+          
+                  <img src="https://cdn.prod.website-files.com/622f12b6740b2b50e64252c5/64eee81e5592ad025bbb9d1d_thumbnail.png" alt="icon">
+                </p>
+                <p>Another recent update google is issuing to chromium are against ads. Google is trying to get rid of ad
+                  blockers as it hurts their monetization so their new updates are aimed to kill extension ad blockers and
+                  make them run worse on chromium browsers. These new updates area also now affecting browsers with built
+                  in ad blockers (eg. Brave and Opera) which are now more susceptible to ads and trackers from google.
+                </p>
+              </div>
+            </section>
+          </div>
+
+                
+        <div class="story-div">
+          <section id="story">
+            <h2>Chrome</h2>
+            <p>I was on the high mountains, it had taken me hours to climb this high. Obstacle after obstacle had
+              stopped me. I had to go from floating mountain to floating mountain finally to be rewarded with this
+              stunning view of the majestic floating mountains of Alexandrian. However, my break was short as I was
+              reminded of the gigantic mountain I must climb to retrieve the scroll of the late master Po...</p>
+          </section>
+        </div>
+
+        <div class="safari-div" style="display: none;">
+          <section id="safari">
+            <h2>Safari</h2>
+            <p>I was on the high mountains, it had taken me hours to climb this high...</p>
+          </section>
+        </div>
+
+
+        <div class="credit-div">
+          <section id="credit">
+            <h2>Brave</h2>
+            <p>Credit goes to Advay Daga.</p>
+          </section>
+        </div>
+
+        <div class="contact-div">
+          <section id="contact">
+            <h2>Opera GX</h2>
+            <p>You can reach me at advaydaga9@gmail.com for any insightful ideas that you would like to pursue.</p>
+          </section>
+        </div>
+      </main>
+    </div>
+    <div class="firefox-div">
+      <section id="firefox">
+        <h2>Firefox</h2>
+        <p>Firefox is known for its privacy features and customizability...</p>
+      </section>
+    </div>
+
+    <div class="verdict-div">
+      <section id="verdict">
+        <h2>Final Verdict</h2>
+        <p>For privacy-focused users, Firefox is the best option!</p>
+      </section>
+    </div>
+
+    </div>
+    </main>
+    </div>
+    <script>
+      function showSection(section) {
+        // Hide all sections
+        const sections = ['home', 'about', 'story', 'credit', 'contact', 'firefox', 'verdict', 'safari'];
+        sections.forEach(sec => {
+          document.getElementsByClassName(sec + '-div')[0].style.display = 'none';
+        });
+
+        // Show the selected section
+        document.getElementsByClassName(section + '-div')[0].style.display = 'block';
+        window.location.href = '#' + section;
+      }
+    </script>
+  </body>
+
+</html>
